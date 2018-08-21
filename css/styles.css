@@ -1,0 +1,248 @@
+/*========================================================
+    DEFAULT VALUES
+    font-family: 'Roboto Condensed'
+    SEA SERPENT: #34C6D3 (Buttons,icons, links)
+    OUTER SPACE: #41464B (Headings)
+      NICKEL   : #64707B (Paragraphs)
+      WHITE    : #FFFFFF (Text with black background)
+      BLACK    : #000000
+
+==========================================================*/
+
+/*Genral CSS*/
+
+@import <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet" > ;
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #41464B;
+}
+
+/*========================================================
+                        Home
+==========================================================*/
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url(../img/cover.jpg);
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+/*========================================================
+                        PARALLAX (Generic)
+==========================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*========================================================
+                        Buttons (Generic)
+==========================================================*/
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0px;
+    font-size: 16px;
+    padding: 12px 26px 12px 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464B;
+}
+
+.btn-green {
+    border-color: #34C6D3;
+    color: #34C6D3;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+    background-color: #34C6D3;
+    color: #fff;
+}
+
+/*========================================================
+                        Animate (Generic)
+==========================================================*/
+
+#home-cover {
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+    animation-duration: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+    animation-duration: .5s;
+}
+
+/*========================================================
+                        Content (Generic) 
+==========================================================*/
+
+.content-box {
+    padding: 60px 0px 60px 0px
+}
+
+.content-title {
+    font-size: 30px;
+    font-weight: 700px;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    color: #41464B;
+}
+
+.content-title-underline {
+    width: 40px;
+    height: 3px;
+    background-color: #34C6D3;
+    margin: 0 auto 0 auto;
+}
+
+/*========================================================
+                        Services 
+==========================================================*/
+
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #41464B;
+
+}
+
+.service-item-des p {
+    color: #64707B;
+
+}
+
+.service-item-icon i {
+    color: #34C6D3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: #34C6D3;
+
+}
+
+
+/*========================================================
+                        About 
+==========================================================*/
+
+#about-bg-diagnol {
+    background-image: url(../img/me.jpg);
+    width: 60%;
+    height: 700px;
+    float: right;
+    border-left: solid #fff 200px;
+    border-top: solid transparent 700px;
+}
+
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #64707B;
+
+}
+
+/*========================================================
+                        Work 
+==========================================================*/
+
+
+
+
+
+
+
+
+
