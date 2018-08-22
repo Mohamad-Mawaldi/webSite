@@ -25,7 +25,6 @@ body {
 
 h3 {
     text-transform: uppercase;
-    color: #41464B;
 }
 
 /*========================================================
@@ -134,11 +133,11 @@ h3 {
     padding: 60px 0px 60px 0px
 }
 
-.content-title {
+.content-title h3 {
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     text-align: center;
-    margin: 30px 0 20px 0;
+    margin: 30px 0 10px 0;
     color: #41464B;
 }
 
@@ -146,7 +145,7 @@ h3 {
     width: 40px;
     height: 3px;
     background-color: #34C6D3;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 15px auto;
 }
 
 /*========================================================
