@@ -253,5 +253,5 @@ h3 {
 
 .img-wrapper img {
     transition: transform .5s ease;
-    background-size: cover;
+    object-fit: fill;
 }
