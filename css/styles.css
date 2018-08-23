@@ -382,3 +382,69 @@ h4.team-member-name {
     height: 30xp;
     position: absolute;
 }
+
+/*========================================================
+                        Pricing 
+==========================================================*/
+
+.pricing-box {
+    border: 3px solid #34C6D3;
+    padding: 50px 0;
+    margin: 40px 0;
+}
+
+h4.pricing-title {
+    background: #34C6D3;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.pricing-value {
+    font-size: 60px;
+    font-weight: 700;
+    color: #41464B;
+
+}
+
+.pricing-value sup {
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+    color: #41464B;
+
+}
+
+.pricing-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+    color: #64707B;
+
+
+}
+
+.pricing-spec li p {
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.pricing-box-lg {
+    padding: 90px 0;
+    margin: 0;
+    background-color: #34C6D3;
+}
+
+.pricing-box-lg h4 {
+    color: #34C6D3;
+    background-color: #fff;
+}
+
+.pricing-box-lg ul.pricing-spec li p {
+    color: #fff;
+
+}
