@@ -314,11 +314,13 @@ h4.team-member-name {
     color: #64707B;
 }
 
-.social-icon:hover {
+.social-icon :hover {
 
     color: #34C6D3;
 }
-
+.icon-white{
+    color: #fff;
+}
 /*============================================
                   Testimonials
 =============================================*/
