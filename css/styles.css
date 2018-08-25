@@ -602,12 +602,18 @@ address strong,
 #footer-menu ul li a:hover {
     color: #34c6d3;
 }
+
 /*========================================================
                         Nav-bar 
 ==========================================================*/
-#website-nav{
-    padding: 10px;
-    background: rgba(0,0,0,0.7); !important
+
+#website-nav {
+    padding: 20px 10px;
+    transition: all .5s ease-in-out;
+}
+
+.website-background {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 #website-nav .navbar-brand {
@@ -615,44 +621,31 @@ address strong,
     font-size: 25px;
     margin-right: 30px;
     color: #fff;
-    
+
 }
+
 #website-nav ul {
- margin-right: 20px;
- padding: 2px;    
+    margin-right: 20px;
+    padding: 2px;
 }
 
 #website-nav li a {
-color: #fff;
-font-size: 15px;
-letter-spacing: 1px;
-font-weight: 700;    
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
-#website-nav li a:hover{
-    color: #34c6d3; 
-    
+#website-nav li a:hover {
+    color: #34c6d3;
+
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     border-color: #fff;
     color: #fff;
 }
-#navbar-menu a.active  {
-    color: #34c6d3;    
+
+#navbar-menu a.active {
+    color: #34c6d3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
