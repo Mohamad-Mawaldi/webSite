@@ -552,3 +552,53 @@ address strong,
     background-color: transparent;
     color: #fff
 }
+
+/*========================================================
+                        Footer 
+==========================================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    letter-spacing: none;
+    padding-left: 0;
+    margin: 0;
+
+
+}
+
+#footer-menu ul li {
+    display: inline-block;
+
+}
+
+#footer-menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+
+
+}
+
+#footer-menu ul li a:hover {
+    color: #34c6d3;
+}
