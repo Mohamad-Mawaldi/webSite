@@ -1,0 +1,178 @@
+/*========================================================
+                        media queries
+==========================================================*/
+
+/*large screens*/
+@media (min-width: 1200px) {
+    
+    
+}
+
+/*medium screens*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    
+}
+
+/*small screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+     #website-nav{
+    background: rgba(0, 0, 0, 0.7);
+    }
+    
+    #about-bg-diagnol {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    
+    
+}
+
+
+/*extra small screens*/
+@media (max-width: 767px) {
+    
+     #website-nav{
+         background: rgba(0, 0, 0, 0.7);
+    }
+    
+    #home-heading h3 {
+        font-size: 30px;
+    }
+    
+    
+    
+     #about-bg-diagnol {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .stats-item {
+        padding: 30px;    
+        
+    }
+    
+    #footer-menu{
+        display: none;
+        
+    }
+    
+    
+}
+    
+    /*extra small screens*/
+@media (max-width: 480px) {
+    
+     #website-nav {
+    background: rgba(0, 0, 0, 0.7);
+    }
+    
+     #about-bg-diagnol {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    .testimonial blockquote {
+        padding: 6px 50px;
+        
+    }
+    .testimonial blockquote:before {
+        left : 10px;
+        
+    }
+    
+    .testimonial blockquote:after {
+        right : 10px;
+        top: 60px;
+    }
+    
+    .testimonial-author p {
+        font-size: 15px;
+    }
+
+    .stats-item {
+        padding: 20px 0;       
+    }
+    
+    #footer-menu{
+        display: none;   
+    }
+    
+    # home-heading h3 {
+        font-size: 30px;
+    }
+}
+    
+    /*extra small screens*/
+@media (max-width: 320px){
+    
+          #website-nav {
+    background: rgba(0, 0, 0, 0.7);
+    }
+    
+     #about-bg-diagnol {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    .testimonial blockquote {
+        padding: 6px 50px;
+        
+    }
+    .testimonial blockquote:before {
+        left : 10px;
+        
+    }
+    
+    .testimonial blockquote:after {
+        right : 10px;
+        top: 60px;
+    }
+    
+    .testimonial-author p {
+        font-size: 15px;
+    }
+
+    .stats-item {
+        padding: 20px 0;       
+    }
+    
+    #footer-menu{
+        display: none;   
+    }
+    
+    # home-heading h3 {
+        font-size: 30px;
+    }
+}

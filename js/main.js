@@ -4,7 +4,7 @@
 $(function () {
     new WOW().init();
 
-})
+});
 
 /*============================================
                   WORK
@@ -17,7 +17,7 @@ $(function () {
             enabled: true
         }
     });
-})
+});
 /*============================================
                   TEAM
 =============================================*/
@@ -27,10 +27,21 @@ $(function () {
         autoplay: true,
         smartSpeed: 700,
         loop: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+            responsive:{
+        0:{
+            items:1
+        },
+        480:{
+            items:2
+        },
+        768:{
+            items:3
+        }
+      }
     });
 
-})
+});
 /*============================================
                   TESTIMONIALS
 =============================================*/
@@ -42,7 +53,7 @@ $(function () {
         loop: true,
         autoplayHoverPause: true
     });
-})
+});
 
 /*============================================
                   Stats
@@ -53,7 +64,7 @@ $(function () {
         delay: 10,
         time: 1500
     });
-})
+});
 /*============================================
                   Clients
 =============================================*/
@@ -63,9 +74,23 @@ $(function () {
         autoplay: true,
         smartSpeed: 700,
         loop: true,
-        autoplayHoverPause: true
-    });
-})
+        autoplayHoverPause: true,
+    responsive:{
+        0:{
+            items:3
+        },
+        480:{
+            items:3
+        },
+        768:{
+            items:5
+        },
+         992:{
+            items:6
+        }
+      }
+   });
+});
 /*============================================
                   Navigation
 =============================================*/
@@ -81,10 +106,10 @@ $(function () {
         } else {
             //show nav
             $("nav").addClass("website-background");
-           $("#back-to-top").fadeIn();
+            $("#back-to-top").fadeIn();
         }
     });
-})
+});
 
 
 /*============================================
@@ -98,7 +123,31 @@ $(function () {
         var section = $(this).attr("href");
 
         $("html, body").animate({
-            scrollTop: $(section).offset().top - 64
+            scrollTop: $(section).offset().top - 50
         }, 1250, "easeInOutExpo");
     });
-})
+});
+
+/*============================================
+        close mobile menu ob click
+=============================================*/
+$(function () {
+    
+   $("#navbar-menu ul li a").on("click touch", function(){
+       
+      $(".navbar-toggler").click(); 
+       
+   });
+    
+});
+
+
+
+
+
+
+
+
+
+
+
