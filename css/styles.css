@@ -11,10 +11,9 @@
 
 /*Genral CSS*/
 
-@import <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet" > ;
 
-
-html,body {
+html,
+body {
     height: 100%;
 }
 
@@ -392,7 +391,7 @@ h4.team-member-name {
     font-style: normal;
     line-height: 1;
     width: 30px;
-    height: 30xp;
+    height: 30px;
     position: absolute;
 }
 
@@ -442,7 +441,7 @@ h4.pricing-title {
 }
 
 .pricing-spec li p {
-    font-weight: 400px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -519,7 +518,7 @@ footer {
 #contact-left h3,
 #contact-right h3 {
     color: #fff;
-    font-size: 27;
+    font-size: 27px;
     font-weight: 700;
 
 }
@@ -527,7 +526,7 @@ footer {
 #contact-left p {
     color: #fff;
     margin: 30px 3px 0 0;
-    padding: 4 10 0 0;
+    padding: 4px 10px 0 0;
 }
 
 #contact-info {
@@ -547,14 +546,13 @@ address strong,
 
 .form-control {
     background-color: transparent;
-     !important border-radius: 0;
+    border-radius: 0;
     border-color: #fff;
     font-size: 17px;
     font-weight: 300;
     padding: 2px 16px;
     margin: 15px 0;
     color: #fff;
-     !important
 }
 
 .form-control:focus {
@@ -586,11 +584,9 @@ address strong,
 }
 
 #footer-menu ul {
-    letter-spacing: none;
+    letter-spacing: normal;
     padding-left: 0;
     margin: 0;
-
-
 }
 
 #footer-menu ul li {

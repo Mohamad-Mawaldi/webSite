@@ -28,17 +28,17 @@ $(function () {
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
-            responsive:{
-        0:{
-            items:1
-        },
-        480:{
-            items:2
-        },
-        768:{
-            items:3
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            },
+            768: {
+                items: 3
+            }
         }
-      }
     });
 
 });
@@ -75,21 +75,21 @@ $(function () {
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
-    responsive:{
-        0:{
-            items:3
-        },
-        480:{
-            items:3
-        },
-        768:{
-            items:5
-        },
-         992:{
-            items:6
+        responsive: {
+            0: {
+                items: 3
+            },
+            480: {
+                items: 3
+            },
+            768: {
+                items: 5
+            },
+            992: {
+                items: 6
+            }
         }
-      }
-   });
+    });
 });
 /*============================================
                   Navigation
@@ -132,22 +132,11 @@ $(function () {
         close mobile menu ob click
 =============================================*/
 $(function () {
-    
-   $("#navbar-menu ul li a").on("click touch", function(){
-       
-      $(".navbar-toggler").click(); 
-       
-   });
-    
+
+    $("#navbar-menu ul li a").on("click touch", function () {
+
+        $(".navbar-toggler").click();
+
+    });
+
 });
-
-
-
-
-
-
-
-
-
-
-
